@@ -10187,7 +10187,7 @@ aOj:function aOj(a,b){this.a=a
 this.b=b},
 K7:function K7(a){this.a=a},
 a7N:function a7N(a,b){var _=this
-_.d=$
+_.d=null
 _.e=a
 _.a=null
 _.b=b
@@ -59048,14 +59048,13 @@ $S:0}
 A.K7.prototype={
 a8(){return new A.a7N(new A.bI("QR",t.A),B.m)}}
 A.a7N.prototype={
-G(a){var s=null,r=A.aWH(s,A.h7(A.iA("QR Scanner",s),s,new A.J9(A.bhN(),new A.aOr(this),!1,s),s,s),new A.aOs(),new A.aOt(),t.c,t.le)
+G(a){var s=null,r=A.aWH(s,A.h7(A.iA("Scan The QR",s),s,new A.J9(A.bhN(),new A.aOr(this),!1,s),s,s),new A.aOs(),new A.aOt(),t.c,t.le)
 return r},
 JI(a){return this.aia(a)},
 aia(a){var s=0,r=A.q(t.z),q,p=this,o,n,m,l,k,j,i
 var $async$JI=A.m(function(b,c){if(b===1)return A.n(c,r)
 while(true)switch(s){case 0:i=p.d
-if(i===$)A.a()
-i.aIf()
+if(i!=null)i.aIf()
 try{o=B.hC.ck(a)
 n=B.M.em(0,o)
 m=B.b4.em(0,n)
@@ -59068,20 +59067,16 @@ if(J.fx(i,J.W(m,"id"))){k=Math.abs(B.e.bg(A.bH(0,0,0,Date.now()-A.b1X(J.W(m,"dat
 if(k<J.W(m,"expire")){A.bO("Register you in server please wait",B.cl)
 J.ch(l,new A.wa(J.W(m,"id")))}else{A.bO("QR expired",B.F)
 i=p.d
-if(i===$)A.a()
-i.a4O()}}else{i=p.d
-if(i===$)A.a()
-i.a4O()
+if(i!=null)i.a4O()}}else{i=p.d
+if(i!=null)i.a4O()
 A.bO("You are not registered in this course",B.F)}}catch(h){A.bO("invalid Data read,Try again",B.F)
 i=p.d
-if(i===$)A.a()
-i.a4O()
+if(i!=null)i.a4O()
 s=1
 break}case 1:return A.o(q,r)}})
 return A.p($async$JI,r)},
 m(){var s=this.d
-if(s===$)A.a()
-s.m()
+if(s!=null)s.m()
 this.aK()}}
 A.aOs.prototype={
 $2(a,b){return b instanceof A.K8},

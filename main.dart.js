@@ -58952,7 +58952,7 @@ a0=r.z
 if(a0==null)a0=""
 a1=r.at
 if(a1==null)a1=B.ds
-l=a2.f=A.b([new A.ik("Name",k,B.fl,a3),new A.ik("Age",j,B.Oi,a3),new A.ik("College",i,B.NC,a3),new A.ik("Department",h,B.NF,a3),g,new A.ik("CV",f,B.NG,a3),new A.ik("Phone",e,B.uv,a3),new A.ik("Country ID",d,B.uu,a3),new A.ik("Email",c,B.NS,a3),new A.ik("LinkedIn",b,B.us,a3),new A.ik("Facebook",a,B.ut,a3),new A.ik("Address",a0,B.uE,a3),new A.ik("Gender",a1.b,B.NE,a3)],p)}n[m]=new A.xa(l[m],a4!=null,a3)}B.c.a_(o,n)
+l=a2.f=A.b([new A.ik("Name",k,B.fl,a3),new A.ik("Age",j,B.Oi,a3),new A.ik("College",i,B.NC,a3),new A.ik("Department",h,B.NF,a3),g,new A.ik("CV",f,B.NG,a3),new A.ik("Phone",e,B.uv,a3),new A.ik("National  ID",d,B.uu,a3),new A.ik("Email",c,B.NS,a3),new A.ik("LinkedIn",b,B.us,a3),new A.ik("Facebook",a,B.ut,a3),new A.ik("Address",a0,B.uE,a3),new A.ik("Gender",a1.b,B.NE,a3)],p)}n[m]=new A.xa(l[m],a4!=null,a3)}B.c.a_(o,n)
 o.push(B.a5)
 o.push(a2.awp())
 return A.h7(q,a3,new A.aA(B.ai,A.eC(A.aV(o,B.l,B.a9,B.j),a3,a3,B.E),a3),s,a3)},
@@ -59619,7 +59619,7 @@ axf(){return A.ee(!0,this.r[2],null,!1,null,B.Nz,null,"College",new A.awU())},
 az_(){return A.ee(!0,this.r[3],null,!1,null,B.Nx,null,"department",new A.awW())},
 ayE(){return A.ee(!0,this.r[5],null,!1,B.jy,B.NA,null,"CV Drive Link",new A.awV())},
 aEg(){return A.ee(!0,this.r[6],"telephoneNumber",!1,B.a2W,B.uv,null,"Phone Number",new A.ax5())},
-a6z(){return A.ee(!0,this.r[7],"telephoneNumber",!1,B.qo,B.uu,null,"Country ID (\u0631\u0642\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0647)",new A.ax6())},
+a6z(){return A.ee(!0,this.r[7],"telephoneNumber",!1,B.qo,B.uu,null,"national  ID \u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0642\u0648\u0645\u064a",new A.ax6())},
 azu(){return A.ee(!0,this.r[8],"email",!1,B.DM,B.uM,null,"Email address",new A.awX())},
 aCz(){return A.ee(!0,this.r[9],null,!1,B.jy,B.us,null,"LinkedIn profile",new A.ax3())},
 azY(){return A.ee(!0,this.r[10],null,!1,B.jy,B.ut,null,"Facebook profile",new A.awY())},
@@ -59744,7 +59744,7 @@ A.ax5.prototype={
 $1(a){return a.length===0?"Phone cannot be Empty":null},
 $S:6}
 A.ax6.prototype={
-$1(a){return a.length===0?"Country ID cannot be Empty":null},
+$1(a){return a.length===0?"National ID cannot be Empty":null},
 $S:6}
 A.awX.prototype={
 $1(a){return a.length===0?"Second phone cannot be Empty":null},
